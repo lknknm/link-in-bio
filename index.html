@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">  
+    <title>Lucas Mellone's link tree</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="./styles.css">
+
+    <script src="./js/p5.min.js"></script>
+    <script src="./js/vanta.trunk.min.js"></script>
+
+    <script>
+
+    window.addEventListener('DOMContentLoaded', () => {
+        // console.log('Vanta has been successfully loaded')
+        VANTA.TRUNK({
+        el: "#vanta-bg",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.00,
+        minWidth: 200.00,
+        scale: 1.00,
+        scaleMobile: 1.00,
+        spacing: 5.50,
+        chaos: 8,
+        })
+    })
+
+    </script>
+
+</head>
+
+<body>
+    <div id="vanta-bg">
+        <header>
+            <div>
+                <img src="https://avatars.githubusercontent.com/u/108239558?v=4" alt="Profile picture"/>
+            </div>
+            <h3> @lkmlln_ </h3>
+            <p>Architect │ 3D Artist │ Singer-songwriter</p>
+        </header>
+
+        <main>
+
+            <section>
+                <div>
+                    <ul class="links-list">
+                        <li>
+                            <a target="_blank" href="https://www.instagram.com/lkmlln_/">Instagram</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://soundcloud.com/lucas-mellone">Youtube</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://soundcloud.com/lucas-mellone">SoundCloud</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://github.com/lknknm">GitHub</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://www.linkedin.com/in/lkmlln/">Linkedin</a>
+                        </li>
+                    </ul>
+                </div>
+        </section>
+
+        </main>
+
+        <footer>
+            <p>designed/coded by lucas mellone.</p>
+            <a target="_blank" href="https://github.com/lknknm/link-in-bio">fork this page on GitHub</a>
+        </footer> 
+
+    </div>
+</body>
+</html>
