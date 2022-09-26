@@ -4,5 +4,5 @@
 
 Typical link in bio page that redirects to my social media profiles. It was built using HTML + CSS, with the background in <a href="https://www.vantajs.com/">Vanta.js</a> (go check it out, it's amazing). 
 
-> MIT License
+> MIT License.
 You can fork this project and create your own link-in-bio/link-tree page, with your own links, profile picture and modifications without noticing me. Credit would be nice though :)
