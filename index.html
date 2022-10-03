@@ -2,7 +2,6 @@
 <html>
 <head>
     <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">  
     <title>Lucas Mellone's link tree</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
@@ -11,6 +10,16 @@
     <script src="./js/p5.min.js"></script>
     <script src="./js/vanta.trunk.min.js"></script>
 
+    <script>
+        
+    if (window.screen.width < 2000) {
+    console.log("Less than 960");
+    }
+    else {
+    console.log("more than 960");
+    }
+
+    </script>
     <script>
 
     window.addEventListener('DOMContentLoaded', () => {
@@ -25,7 +34,7 @@
         scale: 1.00,
         scaleMobile: 1.00,
         spacing: 5.50,
-        chaos: 8,
+        chaos: 8
         })
     })
 
