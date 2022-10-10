@@ -7,24 +7,25 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" href="./styles.css">
 
-    <script src="./js/p5.min.js"></script>
-    <script src="./js/vanta.trunk.min.js"></script>
+    <script src="./js/three.r134.min.js"></script>
+    <script src="./js/vanta.halo.min.js"></script>
 
     <script>
 
     window.addEventListener('DOMContentLoaded', () => {
         // console.log('Vanta has been successfully loaded')
-        VANTA.TRUNK({
+        VANTA.HALO({
         el: "#vanta-bg",
         mouseControls: true,
         touchControls: true,
         gyroControls: false,
         minHeight: 200.00,
         minWidth: 200.00,
-        scale: 1.00,
-        scaleMobile: 1.00,
-        spacing: 5.50,
-        chaos: 8
+        baseColor: 0xf00a7f,
+        backgroundColor: 0xb0b0c,
+        amplitudeFactor: 0.20,
+        size: 2.50,
+        yOffset: 0.05
         })
     })
 

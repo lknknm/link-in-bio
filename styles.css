@@ -30,6 +30,16 @@ header {
     color: white;
 }
 
+header a {
+    font-family: 'Raleway', sans-serif;
+    padding-top: 0px;
+    text-align: center;
+    font-size: 10px;
+    color: white;
+    margin: auto;
+    letter-spacing: 1px;
+}
+
 main {
     max-width: 580px;
     width: 90%;
@@ -142,6 +152,11 @@ header div {
     animation: fromTop .7s .2s backwards;
 }
 
+header h1 {
+    animation: fadeIn .7s .2s backwards;
+    animation-delay: .2s;
+}
+
 header h3 {
     animation: fadeIn .7s .2s backwards;
     animation-delay: .2s;
@@ -150,6 +165,11 @@ header h3 {
 header p {
     animation: fadeIn .7s .2s backwards;
     animation-delay: .3s;
+}
+
+header a {
+    animation: fadeIn .7s .2s backwards;
+    animation-delay: .5s;
 }
 
 main {
