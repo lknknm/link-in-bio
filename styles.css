@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url('./fonts/Raleway-Light.ttf');
+  }
+
 * {
     margin: 0;
     padding: 0;
