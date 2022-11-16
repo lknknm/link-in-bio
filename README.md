@@ -6,10 +6,10 @@ Typical link in bio page that redirects to my social media profiles. It was buil
 
 #### Benefits of making your own 'link-in-bio' page:
 - No data-mining;
-- No annoying Cookie-Policy;
+- No annoying Cookie-Policy (it won't steal user's cookies);
 - No annoying "Accept/Reject" pop-ups;
-- No Tracking;
-- No Ads;
+- No Trackers (it won't track user's location, IP Address, websites visited, etc);
+- No selling-users-data-for-ads kind of thing;
 - HTML is fun!
 
 ##### Update: Google Fonts link reference is removed from 'index.html' (it contains trackers). Instead, just upload your own fonts into the "fonts" folder (provided you have a license to use it) and link it in the 'styles.css'. 
