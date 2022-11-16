@@ -4,7 +4,7 @@
 
 Typical link in bio page that redirects to my social media profiles. It was built using HTML + CSS, with the background in <a href="https://www.vantajs.com/">Vanta.js</a> (go check it out, it's amazing). 
 
-#### Benefits of making your own Link-Tree:
+#### Benefits of making your own 'link-in-bio' page:
 - No data-mining;
 - No annoying Cookie-Policy;
 - No annoying "Accept/Reject" pop-ups;
