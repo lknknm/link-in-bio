@@ -4,5 +4,15 @@
 
 Typical link in bio page that redirects to my social media profiles. It was built using HTML + CSS, with the background in <a href="https://www.vantajs.com/">Vanta.js</a> (go check it out, it's amazing). 
 
+#### Benefits of making your own Link-Tree:
+- No data-mining;
+- No annoying Cookie-Policy;
+- No annoying "Accept/Reject" pop-ups;
+- No Tracking;
+- No Ads;
+- HTML is fun!
+
+##### Update: Google Fonts link reference is removed from 'index.html' (it contains trackers). Instead, just upload your own fonts into the "fonts" folder (provided you have a license to use it) and link it in the 'styles.css'. 
+
 > MIT License.
 You can fork this project and create your own link-in-bio/link-tree page, with your own links, profile picture and modifications without notifying me. Credit would be nice though :)
