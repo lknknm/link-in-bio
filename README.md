@@ -6,6 +6,7 @@ Typical link in bio page that redirects to my social media profiles. It was buil
 
 #### Benefits of making your own 'link-in-bio' page:
 - No data-mining;
+- Gives you 100% power to customize your page without relying on pre-built services;
 - No annoying Cookie-Policy (it won't steal user's cookies);
 - No annoying "Accept/Reject" pop-ups;
 - No Trackers (it won't track user's location, IP Address, websites visited, etc);
