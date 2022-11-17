@@ -15,4 +15,4 @@ Typical link in bio page that redirects to my social media profiles. It was buil
 ##### Update: Google Fonts link reference is removed from 'index.html' due to no trackers policy. Instead, just upload your own fonts into the "fonts" folder (provided you have a license to use it) and link it in the 'styles.css'. 
 
 > MIT License.
-You can fork this project and create your own link-in-bio/link-tree page, with your own links, profile picture and modifications without notifying me. Credit would be nice though :)
+You can fork this project and create your own link-in-bio/link-tree page, with your own links, profile picture and modifications without notifying me. Credit would be nice though :) You can leave it as "designed/coded by lucas mellone, forked by [your name]" for example.
