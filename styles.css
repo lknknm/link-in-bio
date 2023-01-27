@@ -16,7 +16,6 @@ body * {
 body {
     background-color: #16161D;
     background-size: 100% auto;
-    background-attachment: fixed;
 }
 
 video {
@@ -25,6 +24,8 @@ video {
     left: 0;
     min-width: 100%;
     min-height: 100%;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     opacity: .8;
 }
