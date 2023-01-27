@@ -20,11 +20,7 @@ body {
 }
 
 video {
-<<<<<<< HEAD
-    position: absolute;
-=======
     position: fixed;
->>>>>>> release-update
     top: 0;
     left: 0;
     width: 100%;
