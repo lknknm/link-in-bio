@@ -134,6 +134,7 @@ ul li a {
     justify-content: center;
     color: white;
     text-decoration: none;
+    text-align: center;
 }
 
 
@@ -256,6 +257,7 @@ content {
     border-color: #DD0F55;
 
     text-color: #DD0F55;
+    text-align: center;
 
     padding: 8px;
     margin: 8px;
@@ -267,22 +269,20 @@ content {
 
 .accordion_header {
     padding: 1px;
-    display: flex;
+    display: table;
     flex-direction: row;
     cursor: pointer;
     text-decoration: none;
-    justify-content: center;
+    margin: 0 auto;
 }
 
 span {
     color: #DD0F55;
     text-decoration: none;
-    padding: 0px 0px 0px 154px; 
 }
 
 .icon {
     color: #DD0F55;
-    padding: 0px 0px 0px 148px; 
     size: 10px;
 }
 
