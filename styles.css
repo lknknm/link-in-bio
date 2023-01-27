@@ -16,7 +16,20 @@ body * {
 body {
     background-color: #16161D;
     background-size: 100% auto;
+    background-attachment: fixed;
 }
+
+video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: .8;
+}
+
+video::-webkit-media-controls{display: none !important;}
 
 #vanta-bg {
     z-index: 0px;
@@ -236,6 +249,19 @@ content {
 }
 
 .accordion_item {
+    background-color: white;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #DD0F55;
+
+    text-color: #DD0F55;
+
+    padding: 8px;
+    margin: 8px;
+    
+    backdrop-filter: blur(5px); /* Chrome and Opera */
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 15%);
     transition: transform .3s;
 }
 
@@ -300,6 +326,7 @@ span {
     max-height: 340px;
     max-width: 340px;
     filter: none;
+    border-radius: 4px;
     box-shadow: rgba(50, 50, 50, .5) 0px 0px 20px;;
 }
 

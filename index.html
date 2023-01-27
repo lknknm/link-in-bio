@@ -10,6 +10,12 @@
     <script src="./js/three.r134.min.js"></script>
     <script src="./js/vanta.halo.min.js"></script>
 
+    <video id="bg-video" muted loop autoplay poster="./assets/poster.png">
+        <source src="https://github.com/lknknm/link-in-bio/raw/main/assets/links-bg.webm" type="video/webm">
+        <source src="https://github.com/lknknm/link-in-bio/raw/main/assets/links-bg.mp4" type="video/mp4">
+    </video>
+    <div class="overlay"></div>
+
     <!-- <script>
 
     window.addEventListener('DOMContentLoaded', () => {
@@ -37,7 +43,7 @@
     <div id="vanta-bg">
         <header>
             <div>
-                <img src="https://avatars.githubusercontent.com/u/108239558?v=4" alt="Profile picture"/>
+                <img src="./assets/profile_picture.jpg" alt="Profile picture"/>
             </div>
             <h3> @lkmlln_ </h3>
             <p>Architect │ 3D Artist │ Singer-songwriter</p>
@@ -73,7 +79,7 @@
                                     <ul>
                                         <!--Change links below if needed-->
                                         <li class="stream_buttons">
-                                            <a target="_blank" href="https://show.co/mDUQVmp" 
+                                            <a target="_blank" href="https://open.spotify.com/album/20B6eeILapcNLMXbdhswzi" 
                                             style="color:#374151; width: 100%; height: 100%; 
                                             display: flex; justify-content: space-between;">
                                                 <img src="./assets/spotify.svg" width="20" style="margin-right: 20px;"/>
@@ -82,79 +88,44 @@
                                             </a>
                                         </li>
                                         <li class="stream_buttons">
-                                            <a target="_blank" href="" style="color:#374151; width: 100%; display: flex; justify-content: space-between;">
+                                            <a target="_blank" href="https://music.apple.com/br/album/myself-is-missing-single/1661227458" style="color:#374151; width: 100%; display: flex; justify-content: space-between;">
                                                 <img src="./assets/apple.png" height="20" style="margin-right: 20px;"/>
                                                 Apple Music
                                                 <img src="./assets/open.svg" width="20" height="20" style="margin-left: auto"/>
                                             </a>
                                         </li>
                                         <li class="stream_buttons">
-                                            <a target="_blank" href="" style="color:#374151; width: 100%; display: flex; justify-content: space-between;">
+                                            <a target="_blank" href="https://tidal.com/browse/album/266520434" style="color:#374151; width: 100%; display: flex; justify-content: space-between;">
                                                 <img src="./assets/tidal.png" height="20" style="margin-right: 20px;"/>
                                                 TIDAL
                                                 <img src="./assets/open.svg" width="20" height="20" style="margin-left: auto"/>
                                             </a>
                                         </li>
                                         <li class="stream_buttons">
-                                            <a target="_blank" href="" style="color:#374151; width: 100%; display: flex; justify-content: space-between;">
-                                                <img src="./assets/youtube.png" width="20" style="margin-right: 20px;"/>
-                                                <p>Youtube</p>
-                                                <img src="./assets/open.svg" width="20" height="20" style="margin-left: auto"/>
-                                            </a>
-                                        </li>
-                                        <li class="stream_buttons">
-                                            <a target="_blank" href="" style="color:#374151; width: 100%; display: flex; justify-content: space-between;">
+                                            <a target="_blank" href="https://www.deezer.com/br/album/386742047" style="color:#374151; width: 100%; display: flex; justify-content: space-between;">
                                                 <img src="./assets/deezer.png" height="20" style="margin-right: 20px;"/>
                                                 Deezer
                                                 <img src="./assets/open.svg" width="20" height="20" style="margin-left: auto"/>
                                             </a>
                                         </li>
                                         <li class="stream_buttons">
-                                            <a target="_blank" href="" style="color:#374151; width: 100%; display: flex; justify-content: space-between;">
+                                            <a target="_blank" href="https://lucasmellone.bandcamp.com/album/myself-is-missing" style="color:#374151; width: 100%; display: flex; justify-content: space-between;">
                                                 <img src="./assets/bandcamp.png" height="20" style="margin-right: 20px;"/>
                                                 Bandcamp
                                                 <img src="./assets/open.svg" width="20" height="20" style="margin-left: auto"/>
                                             </a>
                                         </li>
                                         <li class="stream_buttons">
-                                            <a target="_blank" href="" style="color:#374151; width: 100%; display: flex; justify-content: space-between;">
+                                            <a target="_blank" href="https://music.youtube.com/playlist?list=OLAK5uy_lQwnPHMugDxcnLWh8RR-lClOcYPxCgQxQ" style="color:#374151; width: 100%; display: flex; justify-content: space-between;">
                                                 <img src="./assets/youtube-music.png" height="20" style="margin-right: 20px;"/>
                                                 Youtube Music
                                                 <img src="./assets/open.svg" width="20" height="20" style="margin-left: auto"/>
                                             </a>
                                         </li>
                                         <li class="stream_buttons">
-                                            <a target="_blank" href="" style="color:#374151; width: 100%; display: flex; justify-content: space-between;">
+                                            <a target="_blank" href="https://music.amazon.com.br/albums/B0BPZVVK1Z" style="color:#374151; width: 100%; display: flex; justify-content: space-between;">
                                                 <img src="./assets/amazon_music.png" height="20" style="margin-right: 20px;"/>
                                                 Amazon Music
-                                                <img src="./assets/open.svg" width="20" height="20" style="margin-left: auto"/>
-                                            </a>
-                                        </li>
-                                        <li class="stream_buttons">
-                                            <a target="_blank" href="" style="color:#374151; width: 100%; display: flex; justify-content: space-between;">
-                                                <img src="./assets/napster.png" height="20" style="margin-right: 20px;"/>
-                                                Napster
-                                                <img src="./assets/open.svg" width="20" height="20" style="margin-left: auto"/>
-                                            </a>
-                                        </li>
-                                        <li class="stream_buttons">
-                                            <a target="_blank" href="" style="color:#374151; width: 100%; display: flex; justify-content: space-between;">
-                                                <img src="./assets/qobuz.png" height="20" style="margin-right: 20px;"/>
-                                                Qobuz
-                                                <img src="./assets/open.svg" width="20" height="20" style="margin-left: auto"/>
-                                            </a>
-                                        </li>
-                                        <li class="stream_buttons">
-                                            <a target="_blank" href="" style="color:#374151; width: 100%; display: flex; justify-content: space-between;">
-                                                <img src="./assets/pandora.png" height="20" style="margin-right: 20px;"/>
-                                                Pandora
-                                                <img src="./assets/open.svg" width="20" height="20" style="margin-left: auto"/>
-                                            </a>
-                                        </li>
-                                        <li class="stream_buttons">
-                                            <a target="_blank" href="" style="color:#374151; width: 100%; display: flex; justify-content: space-between;">
-                                                <img src="./assets/resso.png" height="20" style="margin-right: 20px;"/>
-                                                Resso
                                                 <img src="./assets/open.svg" width="20" height="20" style="margin-left: auto"/>
                                             </a>
                                         </li>
@@ -163,8 +134,19 @@
                             </div>
                         </li>
 
-                        <li class="link_button">
-                            <a target="_blank" href="">Follow on Spotify</a>
+                        <li class="accordion_item">
+                            <a target="_blank" 
+                            href="https://open.spotify.com/artist/1vgQRzogs13dtaLMIYtmdX"
+                            style="color: #DD0F55">
+                            Follow on Spotify
+                            </a>
+                        </li>
+                        <li class="accordion_item">
+                            <a target="_blank" 
+                            href="https://music.apple.com/br/artist/lucas-mellone/1659696278"
+                            style="color: #DD0F55">
+                            Follow on Apple Music
+                            </a>
                         </li>
                         <li class="link_button">
                             <a target="_blank" href="https://www.instagram.com/lkmlln_/">Instagram</a>
@@ -177,9 +159,6 @@
                         </li>
                         <li class="link_button">
                             <a target="_blank" href="https://github.com/lknknm">GitHub</a>
-                        </li>
-                        <li class="link_button">
-                            <a target="_blank" href="https://www.linkedin.com/in/lkmlln/">Linkedin</a>
                         </li>
                     </ul>
                 </div>
