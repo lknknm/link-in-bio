@@ -74,7 +74,7 @@ header div {
     width: 120px;
     margin: auto;
     /* background-image: linear-gradient(90deg, purple, #ff0066); */
-    border: 1px purple solid;
+    border: 1px #F9F6EE solid;
 
     border-radius: 50%;
 
@@ -120,13 +120,26 @@ section ul {
 }
 
 .link_button {
-    background-color: #DD0F55;
+    background-color: #161616;
     border-radius: 8px;
     padding: 8px;
-    margin: 8px;
+    margin: 8px;    
+    border-style: solid;
+    border-width: 1px;
+    border-color: #F9F6EE;
+}
 
-    backdrop-filter: blur(5px); /* Chrome and Opera */
-    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 15%);
+.link_button_highlight{
+    background-color: #F9F6EE;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #161616;
+
+    text-color: #DD0F55;
+
+    padding: 8px;
+    margin: 8px;
 }
 
 ul li a {
@@ -139,12 +152,17 @@ ul li a {
 }
 
 
-.link_button:hover {
+.link_button:hover, 
+.link_button_highlight:hover {
     transform: scale(1.02);
 }
 
-.link_button {
+.link_button,
+.link_button_highlight {
     transition: transform .3s;
+    
+    backdrop-filter: blur(5px); /* Chrome and Opera */
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 15%);
 }
 
 footer {
@@ -232,35 +250,13 @@ content {
 }
 
 .accordion_item {
-    background-color: white;
+    background-color: #F9F6EE;
     border-radius: 8px;
     border-style: solid;
     border-width: 1px;
-    border-color: #DD0F55;
+    border-color: #161616;
 
     text-color: #DD0F55;
-
-    padding: 8px;
-    margin: 8px;
-    
-    backdrop-filter: blur(5px); /* Chrome and Opera */
-    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 15%);
-
-}
-
-.accordion_item:hover {
-    transform: scale(1.02);
-}
-
-.accordion_item {
-    background-color: white;
-    border-radius: 8px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #DD0F55;
-
-    text-color: #DD0F55;
-    text-align: center;
 
     padding: 8px;
     margin: 8px;
@@ -268,6 +264,10 @@ content {
     backdrop-filter: blur(5px); /* Chrome and Opera */
     box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 15%);
     transition: transform .3s;
+}
+
+.accordion_item:hover {
+    transform: scale(1.02);
 }
 
 .accordion_header {
@@ -280,12 +280,12 @@ content {
 }
 
 span {
-    color: #DD0F55;
+    color: #505050;
     text-decoration: none;
 }
 
 .icon {
-    color: #DD0F55;
+    color: #505050;
     size: 10px;
 }
 
@@ -344,7 +344,7 @@ span {
 .stream_buttons {
     display: flex;
     justfy-content: space-between;
-    background-color: white;
+    background-color: #F9F6EE;
     border-radius: 8px;
     padding: 8px;
     margin: 8px;
