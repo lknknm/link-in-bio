@@ -7,36 +7,12 @@
     <link rel="stylesheet" href="./styles.css">
     <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
 
-    <script src="./js/three.r134.min.js"></script>
-    <script src="./js/vanta.halo.min.js"></script>
-
     <video id="bg-video" muted loop autoplay poster="./assets/poster.png">
         <source src="https://github.com/lknknm/link-in-bio/raw/main/assets/links-bg.webm" type="video/webm">
         <source src="https://github.com/lknknm/link-in-bio/raw/main/assets/links-bg.mp4" type="video/mp4">
     </video>
     <div class="overlay"></div>
-
-    <!-- <script>
-
-    window.addEventListener('DOMContentLoaded', () => {
-        // console.log('Vanta has been successfully loaded')
-        VANTA.HALO({
-        el: "#vanta-bg",
-        mouseControls: true,
-        touchControls: true,
-        gyroControls: false,
-        minHeight: 200.00,
-        minWidth: 200.00,
-        baseColor: 0xf00a7f,
-        backgroundColor: 0xb0b0c,
-        amplitudeFactor: 0.20,
-        size: 2,
-        yOffset: 0.05
-        })
-    })
-
-    </script> -->
-
+    <script type="module" src="./js/main.js"></script>
 </head>
 
 <body>
@@ -54,27 +30,27 @@
             <section>
                 <div>
                     <ul class="links-list">
-                        <li class="link_button_highlight">
-                            <a target="_blank" href="https://show.co/q64nJKM"
-                            style="color: #2067c2">
+                        <li class="link_button_highlight" >
+                            <a target="_blank" href="https://show.co/q64nJKM" 
+                            data-info="pre-save-message" style="color: #2067c2">
                             Pre-save «Aujourd'hui» on Spotify
                             </a>
                         </li>
                         <li class="link_button_highlight">
                             <a target="_blank" href="https://lucasmellone.bandcamp.com/album/aujourdhui"
-                            style="color: #2067c2">
-                            Compre «Aujourd'hui» no Bandcamp
+                            data-info="bandcamp-message" style="color: #2067c2">
+                            Purchase «Aujourd'hui» on Bandcamp
                             </a>
                         </li>
                         <li class="link_button_highlight">
                             <a target="_blank" href="https://merch.lucasmellone.com"
-                            style="color: #2067c2">
-                            Loja Lucas Mellone Merch
+                            data-info="merch-message" style="color: #2067c2">
+                            Lucas Mellone Merch Store — Aujourd'hui Collection
                             </a>
                         </li>
                         <li class="accordion_item">
                             <div class="accordion_header">
-                                <span>Listen to "Myself is Missing"</span>
+                                <span data-info="mim-message">Listen to "Myself is Missing"</span>
                                 <span class="icon">+</span>
                             </div>
 
@@ -154,7 +130,8 @@
                         <li class="link_button_highlight">
                             <a target="_blank" 
                             href="https://youtu.be/xPOPLIADN4Y"
-                            style="color: #505050">
+                            style="color: #505050"
+                            data-info="mim-message-yt">
                             Watch "Myself is Missing" Acoustic on YouTube
                             </a>
                         </li>
@@ -162,21 +139,24 @@
                         <li class="link_button_highlight">
                             <a target="_blank" 
                             href="https://www.youtube.com/watch?v=Xbpo_3XskTg"
-                            style="color: #505050">
+                            style="color: #505050"
+                            data-info="mim-message-yt-ac">
                             Watch "Myself is Missing" on YouTube
                             </a>
                         </li>
                         <li class="link_button_highlight">
                             <a target="_blank" 
                             href="https://open.spotify.com/artist/1vgQRzogs13dtaLMIYtmdX"
-                            style="color: #505050">
+                            style="color: #505050"
+                            data-info="spotify-message">
                             Follow on Spotify
                             </a>
                         </li>
                         <li class="link_button_highlight">
                             <a target="_blank" 
                             href="https://music.apple.com/br/artist/lucas-mellone/1659696278"
-                            style="color: #505050">
+                            style="color: #505050"
+                            data-info="applemusic-message">
                             Follow on Apple Music
                             </a>
                         </li>
@@ -202,6 +182,5 @@
         </footer> 
 
     </div>
-    <script src="./js/accordion.js"></script>
 </body>
 </html>
