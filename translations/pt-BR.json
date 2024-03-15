@@ -1,10 +1,11 @@
 {
-    "pre-save-message": "Faça o Pre-Save de «Aujourd'hui» no Spotify",
+    "pre-save-message": "Ouça «Aujourd'hui» no Spotify",
     "bandcamp-message": "Compre «Aujourd'hui» no Bandcamp",
     "merch-message": "Loja Lucas Mellone Merch — «Aujourd'hui» Collection",
-    "mim-message": "Ouça Myself is Missing",
+    "mim-message": "Ouça «Aujourd'hui» em outros streamings",
     "mim-message-yt": "Assista Myself is Missing no YouTube",
     "mim-message-yt-ac": "Assista Myself is Missing Acústica no YouTube",
     "spotify-message": "Siga no Spotify",
-    "applemusic-message": "Siga no Apple Music"
+    "applemusic-message": "Siga no Apple Music",
+    "auj-message-yt": "Assista «Aujourd'hui» no YouTube"
 }
